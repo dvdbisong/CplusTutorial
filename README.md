@@ -1,5 +1,5 @@
-# C++ Programming Tutorial  
-This repository contains the course notes, programming assignments and their solutions.  
+# University of Calabar C++ Programming Tutorial  
+This repository contains the course notes, programming assignments and their solutions for my UNICAL C++ Programming class.  
   
 Materials are under development and subject to change.  
   
