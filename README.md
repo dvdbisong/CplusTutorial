@@ -1,4 +1,4 @@
-# University of Calabar C++ Programming Tutorial  
+# University of Calabar C++ Programming Tutorial  ![University of Calabar](unical.jpg "University of Calabar")
 This repository contains the course notes, programming assignments and their solutions for my UNICAL C++ Programming class.  
   
 Materials are under development and subject to change.  
