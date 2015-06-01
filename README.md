@@ -1,4 +1,4 @@
-                                              ![University of Calabar](unical.jpg "University of Calabar")  
+![University of Calabar](unical.jpg "University of Calabar")  
 # University of Calabar C++ Programming Tutorial
 This repository contains the course notes, programming assignments and their solutions for my UNICAL C++ Programming class.  
   
