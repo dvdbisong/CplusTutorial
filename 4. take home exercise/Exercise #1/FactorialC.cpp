@@ -11,7 +11,42 @@
 #include <cmath>
 using namespace std;
 
-// helper functions
+// helper function prototypes
+long double calculateEtoX( int, int );   // function to calculate e^x
+void clearInput();  // function to flush and reset cin
+int readInt();      // function to read a non-negative integer
+int calculateFactorial( int );  // function to calculate factorial
+
+// main function to run program
+int main()
+{
+    int run;    // hold variable to continue program
+    
+    do {
+        // read a nonnegative integer for x and accuracy
+        cout << "Please enter a non-negative integer for (x): ";
+        int x = readInt();
+        
+        cout << "Please enter a non-negative integer to set accuracy: ";
+        int accuracy = readInt();
+        
+        // print e
+        cout << "e^x = " << calculateEtoX(x,accuracy);
+        
+        //continue program
+        cout << "\n\nRun program again, 1 = Yes / 0 = No: ";
+        cin >> run;
+        
+        // if running program again, print newline
+        if (run == 1)
+        {
+            cout << endl;
+        }
+        
+    } while (run == 1);
+    
+    return 0;
+}
 
 // function to flush and reset cin
 void clearInput()
@@ -77,35 +112,4 @@ long double calculateEtoX( int x, int accuracy = 15 )
     }
     
     return eToX;
-}
-
-// main function to run program
-int main()
-{
-    int run;    // hold variable to continue program
-    
-    do {
-        // read a nonnegative integer for x and accuracy
-        cout << "Please enter a non-negative integer for (x): ";
-        int x = readInt();
-        
-        cout << "Please enter a non-negative integer to set accuracy: ";
-        int accuracy = readInt();
-        
-        // print e
-        cout << "e^x = " << calculateEtoX(x,accuracy);
-        
-        //continue program
-        cout << "\n\nRun program again, 1 = Yes / 0 = No: ";
-        cin >> run;
-        
-        // if running program again, print newline
-        if (run == 1)
-        {
-            cout << endl;
-        }
-        
-    } while (run == 1);
-    
-    return 0;
 }

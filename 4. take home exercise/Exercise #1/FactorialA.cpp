@@ -10,7 +10,39 @@
 #include <iostream>
 using namespace std;
 
-// helper functions
+// helper function prototypes
+void printError();  // function to print error message
+void clearInput();  // function to flush and reset cin
+int readInt();      // function to read a non-negative integer
+int calculateFactorial( int );  // function to calculate factorial
+
+// main function to run program
+int main()
+{
+    int run;    // hold variable to continue program
+    
+    do {
+        // read a nonnegative integer and calculate factorial
+        int number = readInt();
+        
+        // print factorial
+        cout << number <<"! = " << calculateFactorial(number);
+        
+        //continue program
+        clearInput();
+        cout << "\n\nRun program again, 1 = Yes / 0 = No: ";
+        cin >> run;
+        
+        // if running program again, print newline
+        if (run == 1)
+        {
+            cout << endl;
+        }
+        
+    } while (run == 1);
+    
+    return 0;
+}
 
 // function to print error message
 void printError()
@@ -70,32 +102,4 @@ int calculateFactorial( int n )
     }
     
     return fact;
-}
-
-// main function to run program
-int main()
-{
-    int run;    // hold variable to continue program
-    
-    do {
-        // read a nonnegative integer and calculate factorial
-        int number = readInt();
-        
-        // print factorial
-        cout << number <<"! = " << calculateFactorial(number);
-        
-        //continue program
-        clearInput();
-        cout << "\n\nRun program again, 1 = Yes / 0 = No: ";
-        cin >> run;
-        
-        // if running program again, print newline
-        if (run == 1)
-        {
-            cout << endl;
-        }
-        
-    } while (run == 1);
-    
-    return 0;
 }
