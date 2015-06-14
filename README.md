@@ -12,5 +12,5 @@ This term we will be using Piazza for class discussion. The system is highly cat
 
 Find our class page at: https://piazza.com/unical.edu.ng/spring2015/csc181/home.
   
-_Ekaba Bisong_
+_Ekaba Bisong_  
 _Course Lecturer_
