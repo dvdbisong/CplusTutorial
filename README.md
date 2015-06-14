@@ -8,7 +8,9 @@ The course notes follows closely the textbook "C++ How to Program" by Paul & Har
   
 The C++ compiler of choice for this cource is DevC++ and can be downloaded [here](http://sourceforge.net/projects/orwelldevcpp/).
 
-For enrolled students, Join us on the course's [Piazza discussion group](https://piazza.com/unical.edu.ng/spring2015/csc181/home).
+This term we will be using Piazza for class discussion. The system is highly catered to getting you help fast and efficiently from classmates, the TA, and myself. Rather than emailing questions to the teaching staff, I encourage you to post your questions on Piazza.
+
+Find our class page at: https://piazza.com/unical.edu.ng/spring2015/csc181/home.
   
 _Ekaba Bisong_
 _Course Lecturer_
